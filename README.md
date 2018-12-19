@@ -4,20 +4,12 @@
 
 ``` sh
 # 将项目【clone】到本地
-$ git clone git@git.mysoft.com.cn:community/ypack.git
-
 # 切到项目目录
-$ cd ypack
-
 # 安装依赖包，推荐【yarn】命令
 $ npm install
 ```
 
 ## 安装【webpack】
-【YPack】依赖【webpack】全局命令，已经安装的可跳过
-
-``` sh
-# 全局安装【webpack】，已经安装的请跳过
 $ npm install -g webpack
 ```
 
