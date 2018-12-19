@@ -1,0 +1,20 @@
+{
+  "name": "ypack",
+  "version": "1.0.0",
+  "description": "app pack",
+  "main": "index.js",
+  "scripts": {
+    "pack": "node ./bin/index.js"
+  },
+  "bin": {
+    "ypack": "./bin/index.js"
+  },
+  "author": "lifx",
+  "license": "MIT",
+  "devDependencies": {
+    "aliyun-sdk": "^1.9.22",
+    "archiver": "^1.3.0",
+    "shelljs": "^0.7.7"
+  },
+  "dependencies": {}
+}
